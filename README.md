@@ -13,7 +13,6 @@ This is a clean, well-structured personal portfolio website for Shaun Mathew, a 
 ## Technologies Used
 - HTML5
 - CSS3 (linked externally in `styles.css`)
-- No JavaScript (pure static website)
 
 ## Project Structure
 ```
