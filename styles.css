@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, rgb(87, 205, 252), rgb(1, 215, 1)) no-repeat;
+    margin: 0;
+    padding: 15px;
+    min-height: 100vh;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: yellow;
+    color: red;
+}
+
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.profile-image {
+    float: right;
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    border: 4px solid white;
+}
+
+#Projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#Projects li {
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+#Projects h3 {
+    margin-bottom: 15px;
+    color: #222;
+    font-size: 1.4rem;
+}
+
+.project-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.project-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.project-images {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 250px;
+}
+
+.project-image {
+    width: 280px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.project-images.row {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project-images.row .project-image {
+    width: 200px;
+    height: 150px;
+}
+
+#Contact a {
+    display: inline-block;
+    margin: 10px 0;
+    color: #0077cc;
+    text-decoration: none;
+}
+
+#Contact a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 40px 0;
+}
